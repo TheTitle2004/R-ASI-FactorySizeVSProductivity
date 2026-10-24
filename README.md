@@ -4,7 +4,6 @@ Economics term paper examining factory size, capital intensity and output per wo
 
 # Factory Size, Machinery and Output per Worker
 
-**Term Paper | Economics | 2021–22 to 2023–24**
 
 ## Overview
 
