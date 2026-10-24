@@ -1,0 +1,169 @@
+                        m_sizeclass
+                       Size classes
+Dependent Var.:               ln_lp
+                                   
+size_classMedium 0.1724*** (0.0506)
+size_classLarge  0.3087*** (0.0373)
+ln_ci            0.3708*** (0.0194)
+ln_L                               
+ln_L x ln_ci                       
+ln_L_below200                      
+ln_L_200plus                       
+large200                           
+ln_capital                         
+ln_ci_c                            
+I(I(ln_ci_c^2))                    
+Fixed-Effects:   ------------------
+year                            Yes
+nic3_fe                         Yes
+________________ __________________
+S.E.: Clustered         by: nic4_fe
+Observations                167,885
+R2                          0.43319
+Within R2                   0.26916
+
+                      m_interaction
+                     Capital x size
+Dependent Var.:               ln_lp
+                                   
+size_classMedium                   
+size_classLarge                    
+ln_ci            0.3000*** (0.0253)
+ln_L               -0.1156 (0.1014)
+ln_L x ln_ci       0.0166* (0.0076)
+ln_L_below200                      
+ln_L_200plus                       
+large200                           
+ln_capital                         
+ln_ci_c                            
+I(I(ln_ci_c^2))                    
+Fixed-Effects:   ------------------
+year                            Yes
+nic3_fe                         Yes
+________________ __________________
+S.E.: Clustered         by: nic4_fe
+Observations                167,885
+R2                          0.44045
+Within R2                   0.27852
+
+                             m_kink
+                        Kink at 200
+Dependent Var.:               ln_lp
+                                   
+size_classMedium                   
+size_classLarge                    
+ln_ci            0.3698*** (0.0204)
+ln_L                               
+ln_L x ln_ci                       
+ln_L_below200    0.1365*** (0.0225)
+ln_L_200plus        0.0220 (0.0222)
+large200         0.5861*** (0.1386)
+ln_capital                         
+ln_ci_c                            
+I(I(ln_ci_c^2))                    
+Fixed-Effects:   ------------------
+year                            Yes
+nic3_fe                         Yes
+________________ __________________
+S.E.: Clustered         by: nic4_fe
+Observations                167,885
+R2                          0.44037
+Within R2                   0.27841
+
+                           m_levels
+                             Levels
+Dependent Var.:           ln_output
+                                   
+size_classMedium                   
+size_classLarge                    
+ln_ci                              
+ln_L             0.7372*** (0.0266)
+ln_L x ln_ci                       
+ln_L_below200                      
+ln_L_200plus                       
+large200                           
+ln_capital       0.3677*** (0.0205)
+ln_ci_c                            
+I(I(ln_ci_c^2))                    
+Fixed-Effects:   ------------------
+year                            Yes
+nic3_fe                         Yes
+________________ __________________
+S.E.: Clustered         by: nic4_fe
+Observations                167,885
+R2                          0.80814
+Within R2                   0.76949
+
+                          m_squared
+                    Squared capital
+Dependent Var.:               ln_lp
+                                   
+size_classMedium                   
+size_classLarge                    
+ln_ci                              
+ln_L             0.0995*** (0.0114)
+ln_L x ln_ci                       
+ln_L_below200                      
+ln_L_200plus                       
+large200                           
+ln_capital                         
+ln_ci_c          0.4112*** (0.0226)
+I(I(ln_ci_c^2))  0.0151*** (0.0016)
+Fixed-Effects:   ------------------
+year                            Yes
+nic3_fe                         Yes
+________________ __________________
+S.E.: Clustered         by: nic4_fe
+Observations                167,885
+R2                          0.45096
+Within R2                   0.29208
+
+                         m_emol_gva
+                     Emoluments/GVA
+Dependent Var.:      emol_share_gva
+                                   
+size_classMedium 0.0537*** (0.0086)
+size_classLarge     0.0173 (0.0106)
+ln_ci                              
+ln_L                               
+ln_L x ln_ci                       
+ln_L_below200                      
+ln_L_200plus                       
+large200                           
+ln_capital                         
+ln_ci_c                            
+I(I(ln_ci_c^2))                    
+Fixed-Effects:   ------------------
+year                            Yes
+nic3_fe                         Yes
+________________ __________________
+S.E.: Clustered         by: nic4_fe
+Observations                160,697
+R2                          0.06192
+Within R2                   0.00361
+
+                     m_emol_output
+                 Emoluments/output
+Dependent Var.:  emol_share_output
+                                  
+size_classMedium  0.0168* (0.0079)
+size_classLarge    0.0026 (0.0053)
+ln_ci                             
+ln_L                              
+ln_L x ln_ci                      
+ln_L_below200                     
+ln_L_200plus                      
+large200                          
+ln_capital                        
+ln_ci_c                           
+I(I(ln_ci_c^2))                   
+Fixed-Effects:   -----------------
+year                           Yes
+nic3_fe                        Yes
+________________ _________________
+S.E.: Clustered        by: nic4_fe
+Observations               166,206
+R2                         0.13609
+Within R2                  0.00308
+---
+Signif. codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1

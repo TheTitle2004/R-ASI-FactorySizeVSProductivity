@@ -1,0 +1,137 @@
+                                         m1
+                                1 Size only
+Dependent Var.:                       ln_lp
+                                           
+Log persons engaged      0.1479*** (0.0222)
+Log capital per person                     
+Log machinery per person                   
+Fixed-Effects:           ------------------
+year                                    Yes
+nic3_fe                                  No
+state_fe                                 No
+________________________ __________________
+S.E.: Clustered                 by: nic4_fe
+Observations                        167,886
+R2                                  0.03443
+Within R2                           0.03246
+
+                                            m2
+                         2 + capital intensity
+Dependent Var.:                          ln_lp
+                                              
+Log persons engaged         0.1040*** (0.0166)
+Log capital per person      0.4149*** (0.0332)
+Log machinery per person                      
+Fixed-Effects:              ------------------
+year                                       Yes
+nic3_fe                                     No
+state_fe                                    No
+________________________    __________________
+S.E.: Clustered                    by: nic4_fe
+Observations                           167,886
+R2                                     0.32736
+Within R2                              0.32599
+
+                                               m3
+                         3 Baseline + industry FE
+Dependent Var.:                             ln_lp
+                                                 
+Log persons engaged            0.1049*** (0.0116)
+Log capital per person         0.3677*** (0.0205)
+Log machinery per person                         
+Fixed-Effects:                 ------------------
+year                                          Yes
+nic3_fe                                       Yes
+state_fe                                       No
+________________________       __________________
+S.E.: Clustered                       by: nic4_fe
+Observations                              167,885
+R2                                        0.43910
+Within R2                                 0.27679
+
+                                         m4
+                               4 + state FE
+Dependent Var.:                       ln_lp
+                                           
+Log persons engaged      0.0946*** (0.0103)
+Log capital per person   0.3471*** (0.0157)
+Log machinery per person                   
+Fixed-Effects:           ------------------
+year                                    Yes
+nic3_fe                                 Yes
+state_fe                                Yes
+________________________ __________________
+S.E.: Clustered                 by: nic4_fe
+Observations                        167,885
+R2                                  0.46317
+Within R2                           0.25137
+
+                                         m5
+                                 5 Weighted
+Dependent Var.:                       ln_lp
+                                           
+Log persons engaged      0.1008*** (0.0162)
+Log capital per person   0.3635*** (0.0205)
+Log machinery per person                   
+Fixed-Effects:           ------------------
+year                                    Yes
+nic3_fe                                 Yes
+state_fe                                 No
+________________________ __________________
+S.E.: Clustered                 by: nic4_fe
+Observations                        167,885
+R2                                  0.39542
+Within R2                           0.23647
+
+                                         m6
+                                6 Machinery
+Dependent Var.:                       ln_lp
+                                           
+Log persons engaged      0.0819*** (0.0141)
+Log capital per person                     
+Log machinery per person 0.2977*** (0.0193)
+Fixed-Effects:           ------------------
+year                                    Yes
+nic3_fe                                 Yes
+state_fe                                 No
+________________________ __________________
+S.E.: Clustered                 by: nic4_fe
+Observations                        164,434
+R2                                  0.39907
+Within R2                           0.23867
+
+                                        m6b
+                                    6b Both
+Dependent Var.:                       ln_lp
+                                           
+Log persons engaged      0.0905*** (0.0118)
+Log capital per person   0.3110*** (0.0165)
+Log machinery per person 0.0919*** (0.0088)
+Fixed-Effects:           ------------------
+year                                    Yes
+nic3_fe                                 Yes
+state_fe                                 No
+________________________ __________________
+S.E.: Clustered                 by: nic4_fe
+Observations                        164,434
+R2                                  0.44069
+Within R2                           0.29140
+
+                                         m7
+                              7 GVA outcome
+Dependent Var.:                      ln_vap
+                                           
+Log persons engaged      0.1343*** (0.0095)
+Log capital per person   0.2990*** (0.0159)
+Log machinery per person                   
+Fixed-Effects:           ------------------
+year                                    Yes
+nic3_fe                                 Yes
+state_fe                                 No
+________________________ __________________
+S.E.: Clustered                 by: nic4_fe
+Observations                        162,321
+R2                                  0.41902
+Within R2                           0.30283
+---
+Signif. codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
