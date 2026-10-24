@@ -37,9 +37,10 @@ Larger and more capital-intensive factories tend to have higher output per worke
 
 ## Repository Contents
 
-- `paper/`: Final term paper
-- `scripts/`: R scripts used for data preparation and analysis
-- `outputs/`: Selected figures, tables and regression results
+- `paper/`: Final term paper in PDF format
+- `scripts/`: R scripts for data cleaning, dataset construction and statistical analysis
+- `outputs/`: Regression tables, descriptive statistics, figures and robustness-check results
+- `README.md`: Project overview, data sources, methodology and key findings
 
 ## Limitations
 
